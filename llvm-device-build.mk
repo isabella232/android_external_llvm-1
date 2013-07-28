@@ -9,6 +9,7 @@ LOCAL_CFLAGS :=	\
 	-W	\
 	-Wno-unused-parameter	\
 	-Wwrite-strings	\
+    -Wno-error=strict-aliasing \
 	$(LOCAL_CFLAGS)
 
 # The three inline options together reduce libbcc.so almost 1MB.
